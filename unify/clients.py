@@ -1,6 +1,6 @@
 from typing import AsyncGenerator, Dict, Generator, List, Optional, Union
 
-import openai
+from langfuse.openai import openai
 import requests
 from unify.exceptions import BadRequestError, UnifyError, status_error_map
 from unify.utils import (  # noqa:WPS450
